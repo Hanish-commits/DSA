@@ -1,6 +1,6 @@
 # Find the Duplicate Number
 
-*LeetCode 287, three approaches with values as comments*
+*LeetCode 287, three approaches*
 
 ## The problem
 
