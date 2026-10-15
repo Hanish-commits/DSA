@@ -1,4 +1,4 @@
-# Even/Odd Checker and Binary: Compact Notes
+# Even/Odd Checker and Binary
 
 *Check even or odd with `%` and `&`, and see why it works through binary*
 
