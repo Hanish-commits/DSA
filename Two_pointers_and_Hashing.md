@@ -56,6 +56,18 @@ Values for `arr = [1, 3, 5, 7, 9, 11]`, `target = 16`:
 | 2 | 1 | 5 | 3 + 11 = 14 | too small | `left += 1` |
 | 3 | 2 | 5 | 5 + 11 = 16 | **equal** | return `(5, 11)` |
 
+![Visual explanation of the two_pointer_one_pair algorithm](two_pointer_one_pair_algo.png)
+
+
+
+
+
+
+
+
+
+
+
 ## Part 2: Two pointers, all pairs (sorted array)
 
 Same idea, but on a match you record the pair, move **both** pointers, and skip repeated values so the same pair is not recorded twice.
