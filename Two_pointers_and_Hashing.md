@@ -178,6 +178,10 @@ Values for `arr = [8, 3, 5, 9, 1, 7]`, `target = 12`:
 | 5 | 7 | no | `{8, 3, 5}` |
 | 9 | 3 | **yes** | return `(3, 9)` |
 
+![Hash One Pair Algorithm](Hash_one_pair.png)
+
+
+
 ## Part 4: Hash set, all pairs (any array)
 
 Do not return on a match. Save the pair in a second set instead. Store each pair as `(smaller, larger)` so `(3, 9)` and `(9, 3)` count as the same pair, and the set removes repeats automatically.
@@ -221,6 +225,8 @@ Values for `arr = [8, 3, 5, 9, 1, 7]`, `target = 12`:
 | 9 | 3 | **yes** | `{(3, 9)}` |
 | 1 | 11 | no | `{(3, 9)}` |
 | 7 | 5 | **yes** | `{(3, 9), (5, 7)}` |
+
+![Hash set all pairs](hash_all_pairs_visual.png)
 
 ## Part 5: Hash map, indices (LeetCode 1)
 
