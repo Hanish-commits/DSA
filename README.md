@@ -16,6 +16,15 @@ A collection of interview-style notes and Python implementations for common data
 - [Product of Array Except Self](./product_of_array_except_self.md)  
   Prefix/suffix product approach and the O(1) extra-space optimization.
 
+- [Best Time to Buy and Sell Stock](./best_time_to_buy_and_sell_stock.md)  
+  Single-transaction stock profit problem solved with a minimum-price scan.
+
+- [Best Time to Buy and Sell Stock II](./stock_buy_sell_multiple_transactions.md)  
+  Greedy approach for maximizing profit across multiple transactions.
+
+- [Even/Odd Checker and Binary](./even_odd_and_binary_notes.md)  
+  Bitwise and modulo checks, plus an intuitive look at binary place values.
+
 ## What this repo is for
 
 This repository is meant to make classic DSA ideas easier to understand by combining:
