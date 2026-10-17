@@ -126,6 +126,8 @@ Values for `arr = [1, 2, 2, 3, 4, 4, 5, 6]`, `target = 8`:
 
 Without the skip loops, the second `2` in round 2 would be tried against the right side again. The skip loops say: "if my new pointer is on the same value I just used, move on."
 
+![Two pointers: all pairs](two_pointer_all_pairs.gif)
+
 ## Part 3: Hash set, one pair (any array)
 
 Keep a "notebook" (a set) of numbers seen earlier. For each number, work out the partner you need (`target - num`) and check whether it is already in the notebook. Check **before** adding, so a number is never paired with itself.
